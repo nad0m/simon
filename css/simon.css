@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|VT323|Oswald');
+body{
+  background:#e6ffff;
+}
+h2{
+  font-family:Alfa Slab One, cursive;
+  text-align:center;
+}
+.board{
+  border:10px solid #333;
+  width:420px;
+  height:420px;
+  margin: 35px auto;
+  border-radius:100%;
+  position:relative;
+  color:white;
+  background:#333;
+  text-align:center;
+  -webkit-box-shadow: 0px 0px 20px dimgrey;
+  box-shadow: 0px 0px 20px dimgrey;
+
+}
+.board-in{
+  position: relative;
+
+}
+
+.inner{
+  border:10px solid #333;
+  width:200px;
+  height:200px;
+  top:25%;
+  left:25%;
+  border-radius:100%;
+  font-size: 18px;
+  font-family: arial;
+  text-align:center;
+  color:#333;
+  background:white;
+
+  position:absolute;
+
+}
+.keys{
+  border:12px solid #333;
+  width:200px;
+  height:200px;
+  position:relative;
+
+}
+.keys:hover{
+  cursor:pointer;
+}
+.keys:active{
+  transform:translateY(5px);
+}
+.light{
+  -webkit-box-shadow: 0px 0px 15px red;
+  box-shadow: 0px 0px 15px red;
+  background:red !important;
+}
+.light2{
+  -webkit-box-shadow: 0px 0px 15px yellow;
+  box-shadow: 0px 0px 15px yellow;
+  background:yellow !important;
+}
+.screen{
+  width:120px;
+  height:35px;
+  border-radius:5%;
+  border:2px solid #333;
+  margin:35px auto;
+  font-size:22px;
+  background:#1f004d;
+  color:#cc0000;
+  font-family:VT323;
+  position:relative;
+}
+.strict{
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  border:2px solid #333;
+  background:#4d4d4d;
+  color:white;
+  font-family:verdana;
+  margin:0 25px;
+  position:relative;
+  float:right;
+}
+.start{
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  border:2px solid #333;
+  background:#4d4d4d;
+  color:white;
+  font-family:verdana;
+  margin:0 25px;
+  position:relative;
+  float:left;
+
+}
+.start:hover,.strict:hover{
+  cursor:pointer;
+}
+.start:active,.strict:active{
+  transform: translateY(1px);
+}
+.t-l{
+  float:left;
+  border-top-left-radius:100%;
+  background-color : #00a74a;
+  
+}
+.t-r{
+  float:right;
+  border-top-right-radius:100%;
+  background-color : #9f0f17;
+}
+.b-l{
+  float:left;
+  border-bottom-left-radius:100%;
+  background-color : #cca707;
+}
+.b-r{
+  float:right;
+  border-bottom-right-radius:100%;
+  background-color : #094a8f;
+}
+.not-active {
+   pointer-events: none;
+   cursor: not-allowed;
+}
+.text{
+  margin-top:300px;
+  position:relative;
+}
+
+.footer{
+  margin-top:200px;
+}
